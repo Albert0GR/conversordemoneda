@@ -12,12 +12,14 @@ public class Principal {
         ConvertirMoneda convertir = new ConvertirMoneda();
         PintarMenu pintarmenu = new PintarMenu();
         Formulario formulario1=new Formulario();
-        formulario1.setBounds(400,400,600,300);
+        formulario1.setBounds(400,400,750,350);
+        formulario1.setTitle("Conversor de monedas");
         formulario1.setVisible(true);
         formulario1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         double valorfinal;
         String monedaInicial = "";
         String monedaFinal = "";
+
 
 /*
         while (true) {
@@ -73,9 +75,9 @@ public class Principal {
             } catch (RuntimeException e) {
                 System.out.println("Valor invalido: ");
             }
-        }*/
+        }
         System.out.println(listaMonedas);
-
+        */
 
     }
 }
