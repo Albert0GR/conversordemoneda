@@ -1,17 +1,25 @@
-import java.sql.SQLOutput;
+
+import javax.swing.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Principal {
-    public static void main(String[] args) {
+    public static void main(String[] args)   {
         Scanner teclado = new Scanner(System.in);
+        List<Moneda> listaMonedas = new ArrayList<>();
         ConsultaMoneda consulta = new ConsultaMoneda();
         ConvertirMoneda convertir = new ConvertirMoneda();
         PintarMenu pintarmenu = new PintarMenu();
+        Formulario formulario1=new Formulario();
+        formulario1.setBounds(400,400,600,300);
+        formulario1.setVisible(true);
+        formulario1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         double valorfinal;
         String monedaInicial = "";
         String monedaFinal = "";
 
-
+/*
         while (true) {
 
             pintarmenu.menu();
@@ -55,14 +63,20 @@ public class Principal {
                 double valorAConvertir = Double.parseDouble(teclado.nextLine());
                 Moneda moneda = consulta.buscaMoneda(valorAConvertir,monedaInicial,monedaFinal);
                 valorfinal = convertir.convierte(valorAConvertir, moneda.conversion_rate());
-                System.out.println("el valor convertido es:" + valorfinal);
-                System.out.println(moneda);
+                System.out.println("El valor "+String.format("%.2f",valorAConvertir)+ "["+ monedaInicial+"]"
+                        +" corresponde al valor final de -->: " + String.format("%.2f",valorfinal)
+                        +"["+monedaFinal+"]");
+                //System.out.println(moneda);
 
+                listaMonedas.add(moneda);
 
             } catch (RuntimeException e) {
                 System.out.println("Valor invalido: ");
             }
-        }
+        }*/
+        System.out.println(listaMonedas);
+
+
     }
 }
 

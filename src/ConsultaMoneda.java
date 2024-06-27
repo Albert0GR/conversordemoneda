@@ -18,8 +18,10 @@ public class ConsultaMoneda {
             HttpResponse<String> response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
             return new Gson().fromJson(response.body(), Moneda.class);
+
         } catch (Exception e) {
             throw new RuntimeException("No encontré esa moneda."+ e.getMessage());
         }
     }
+
 }
