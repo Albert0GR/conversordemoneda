@@ -10,11 +10,12 @@ Una descripción más detallada y técnica del proyecto, incluyendo sus principa
 
 ## Insignias
 
-Insignias que muestran metadatos como el estado de la compilación, la cobertura de las pruebas, el estado de las dependencias, etc.
+ ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
 ## Visuales
 
-Capturas de pantalla, videos o GIFs que demuestran lo que hace el proyecto y cómo usarlo.
+![2024-06-27-16-37-20](https://github.com/Albert0GR/conversordemoneda/assets/102188547/449170bf-ac00-4655-a1fa-f2a7affa70a1)
+
 
 ## Empezando 🚀
 
