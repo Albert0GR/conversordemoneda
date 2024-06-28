@@ -16,6 +16,9 @@ El proyecto realiza la consulta de una API con los valores de cambio de las mone
 
 ![2024-06-27-16-37-20](https://github.com/Albert0GR/conversordemoneda/assets/102188547/449170bf-ac00-4655-a1fa-f2a7affa70a1)
 
+![image](https://github.com/Albert0GR/conversordemoneda/assets/102188547/95a605a0-165b-4837-80a9-5c79ae5a279b)
+
+
 ![image](https://github.com/Albert0GR/conversordemoneda/assets/102188547/703c40c7-4537-4a3f-86eb-f66d95eb7ea1)
 
 
