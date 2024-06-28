@@ -77,6 +77,8 @@ para el proyecto actual.
 
 Agradecido con ALURA LATAM por la enseñanza y el conocimiento para hacer posible la realizacion de este pryecto
 
+![Badge-Conversor](https://github.com/Albert0GR/conversordemoneda/assets/102188547/4f6ca071-b1e8-4e1c-868c-04fd2050b38f)
+
 ---
 
 ## Consejos Adicionales 📝
